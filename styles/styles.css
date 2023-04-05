@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Poppins:wght@300;400&display=swap');
+body{
+    margin: 100px;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    background: #22c1c3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.titulo-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: 'Henny Penny', cursive;
+    color: lightcoral;
+    font-size: 30px;
+}
+.container{
+    background: papayawhip;
+    width: 1300px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.container:hover .box{
+    transform: scale(1.2);
+}
+.box{
+    width: 200px;
+    height: 200px;
+}
+.box1{
+    background: lightcoral;
+    transition: transform 1000ms;
+}
+.box2{
+    background: salmon;
+    transition: transform 1s;
+}
+.box3{
+    background: darksalmon;
+    transition: transform 2.5s;
+}
